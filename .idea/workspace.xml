@@ -127,7 +127,7 @@
       <workItem from="1676506305410" duration="3303000" />
       <workItem from="1676511379432" duration="1530000" />
       <workItem from="1676559922455" duration="449000" />
-      <workItem from="1680132547182" duration="17889000" />
+      <workItem from="1680132547182" duration="18229000" />
     </task>
     <task id="LOCAL-00001" summary="Added code to demonstrate first code change.">
       <created>1675384509529</created>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680214663391</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Validated user input to require all fields.">
+      <created>1680217813789</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680217813789</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +226,8 @@
     <MESSAGE value="Creating my route to my about me page." />
     <MESSAGE value="Fixed trailing slash error. Line 56." />
     <MESSAGE value="Client information input for contact and course" />
-    <option name="LAST_COMMIT_MESSAGE" value="Client information input for contact and course" />
+    <MESSAGE value="Validated user input to require all fields." />
+    <option name="LAST_COMMIT_MESSAGE" value="Validated user input to require all fields." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
