@@ -41,6 +41,7 @@ class Major(db.Model):
     def __repr__(self):
         return f"{self.major}"
 
+
     # Only execute once! Initial load of majors
     #db.engine.execute("INSERT INTO major(major) VALUES ('Accounting');")
 

@@ -130,7 +130,7 @@
       <workItem from="1676559922455" duration="449000" />
       <workItem from="1680132547182" duration="19875000" />
       <workItem from="1680642779562" duration="28000" />
-      <workItem from="1680736744588" duration="5491000" />
+      <workItem from="1680736744588" duration="6061000" />
     </task>
     <task id="LOCAL-00001" summary="Added code to demonstrate first code change.">
       <created>1675384509529</created>
@@ -251,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680794344280</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add email column to db browser to include in student field">
+      <created>1680795249135</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680795249135</updated>
+    </task>
+    <task id="LOCAL-00019" summary="altered base.html to include jinja formatting for entry and view pages">
+      <created>1680795341259</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680795341259</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +283,9 @@
     <MESSAGE value="Imported information from base, student view, and student entry to helloWorld" />
     <MESSAGE value="modified template to create email field with 100 varchar restriction" />
     <MESSAGE value="created app.py file with imported code" />
-    <option name="LAST_COMMIT_MESSAGE" value="created app.py file with imported code" />
+    <MESSAGE value="add email column to db browser to include in student field" />
+    <MESSAGE value="altered base.html to include jinja formatting for entry and view pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="altered base.html to include jinja formatting for entry and view pages" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/helloWorld2$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1676511063618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
