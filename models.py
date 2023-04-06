@@ -8,7 +8,7 @@ class Student(db.Model):
     first_name = db.Column(db.String(30), nullable=False)
     last_name = db.Column(db.String(50), nullable=False)
     major_id = db.Column(db.Integer, db.ForeignKey('major.major_id'))
-    email = db.Column(db.String(100), nullable=False)
+    email = db.Column(db.String(100))
     birth_date = db.Column(db.DateTime, nullable=False)
     num_credits_completed = db.Column(db.Integer, nullable=False)
     gpa = db.Column(db.Float, nullable=False)
