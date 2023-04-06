@@ -129,7 +129,6 @@ if __name__ == '__main__':
             amajor = Major(major=each_major)
             db.session.add(amajor)
             db.session.commit()
-
     app.run()
 
 
