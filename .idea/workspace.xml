@@ -20,6 +20,17 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -130,7 +141,7 @@
       <workItem from="1676559922455" duration="449000" />
       <workItem from="1680132547182" duration="19875000" />
       <workItem from="1680642779562" duration="28000" />
-      <workItem from="1680736744588" duration="6061000" />
+      <workItem from="1680736744588" duration="6871000" />
     </task>
     <task id="LOCAL-00001" summary="Added code to demonstrate first code change.">
       <created>1675384509529</created>
@@ -265,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680795341259</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Imported models.py to create routes for student database and repository">
+      <created>1680796104484</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680796104484</updated>
+    </task>
+    <task id="LOCAL-00021" summary="imported student entry to update email field">
+      <created>1680796149558</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1680796149558</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +310,9 @@
     <MESSAGE value="created app.py file with imported code" />
     <MESSAGE value="add email column to db browser to include in student field" />
     <MESSAGE value="altered base.html to include jinja formatting for entry and view pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="altered base.html to include jinja formatting for entry and view pages" />
+    <MESSAGE value="Imported models.py to create routes for student database and repository" />
+    <MESSAGE value="imported student entry to update email field" />
+    <option name="LAST_COMMIT_MESSAGE" value="imported student entry to update email field" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/helloWorld2$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1676511063618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
