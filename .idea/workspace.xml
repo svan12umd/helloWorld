@@ -113,7 +113,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -142,6 +142,7 @@
       <workItem from="1680132547182" duration="19875000" />
       <workItem from="1680642779562" duration="28000" />
       <workItem from="1680736744588" duration="6871000" />
+      <workItem from="1681340867795" duration="2597000" />
     </task>
     <task id="LOCAL-00001" summary="Added code to demonstrate first code change.">
       <created>1675384509529</created>
@@ -290,7 +291,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680796149558</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added models file and create db file to helloWorld2">
+      <created>1681344179231</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681344179231</updated>
+    </task>
+    <task id="LOCAL-00023" summary="imported all .py files (create_db, app, authorize, and models)">
+      <created>1681345011424</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681345011424</updated>
+    </task>
+    <task id="LOCAL-00024" summary="imported all .py files (create_db, app, authorize, and models)">
+      <created>1681345016814</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1681345016814</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added user as STUDENT in create_db files to add myself as a user">
+      <created>1681345422113</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681345422113</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +341,11 @@
     <MESSAGE value="altered base.html to include jinja formatting for entry and view pages" />
     <MESSAGE value="Imported models.py to create routes for student database and repository" />
     <MESSAGE value="imported student entry to update email field" />
-    <option name="LAST_COMMIT_MESSAGE" value="imported student entry to update email field" />
+    <MESSAGE value="added models file and create db file to helloWorld2" />
+    <MESSAGE value="added app.py and authorize.py file to helloWorld2" />
+    <MESSAGE value="imported all .py files (create_db, app, authorize, and models)" />
+    <MESSAGE value="Added user as STUDENT in create_db files to add myself as a user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added user as STUDENT in create_db files to add myself as a user" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/helloWorld2$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1676511063618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

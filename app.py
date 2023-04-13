@@ -213,6 +213,12 @@ def error():
     # Before routing to this route, ensure flash function is used
     return render_template('error.html')
 
+@app.route('/training', methods =['GET','POST'])
+@login_required
+@role_required(['ADMIN', 'MANAGER'])
+def training():
+    return render_template('training.html')
+
 
 @app.errorhandler(404)
 def page_not_found(e):
